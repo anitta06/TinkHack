@@ -31,7 +31,7 @@ TinkHack provides a platform for coders, designers, and innovators to come toget
 - [Contact](#contact)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [Contributing](#contributing)
+
 
 ---
 

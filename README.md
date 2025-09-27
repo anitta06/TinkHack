@@ -32,7 +32,6 @@ TinkHack provides a platform for coders, designers, and innovators to come toget
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 

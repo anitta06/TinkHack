@@ -62,9 +62,7 @@ Click the **Register** button on the landing page to sign up.
 
 ## Sponsors
 
-We gratefully thank our visionary sponsors for their support:
-- NexaCore Solutions
-- PulseWave Innovations
+We gratefully thank our visionary sponsors for their support
 
 Want to see your brand here? Contact us!
 

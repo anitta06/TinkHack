@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>TinkHack 2025 Landing Page</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div
+			id="loader-overlay"
+			style="
+				position: fixed;
+				z-index: 99999;
+				top: 0;
+				left: 0;
+				width: 100vw;
+				height: 100vh;
+				background: #000;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				transition: opacity 0.5s;
+			"
+		>
+			<div
+				id="loader-caption"
+				style="
+					color: #39ff14;
+					font-size: 1.5rem;
+					margin-bottom: 1.2rem;
+					text-align: center;
+				"
+			>
+				Fueling your creativity...
+			</div>
+			<div
+				id="loader-bar-container"
+				style="
+					width: 320px;
+					max-width: 80vw;
+					height: 18px;
+					background: #222;
+					border-radius: 10px;
+					overflow: hidden;
+					box-shadow: 0 0 10px #39ff1444;
+					margin-bottom: 1.1rem;
+				"
+			>
+				<div
+					id="loader-bar"
+					style="
+						height: 100%;
+						width: 0;
+						background: linear-gradient(90deg, #39ff14 60%, #0ff 100%);
+						transition: width 0.2s;
+					"
+				></div>
+			</div>
+			<div
+				id="loader-percentage"
+				style="
+					color: #fff;
+					font-size: 1.2rem;
+					font-family: 'Orbitron', sans-serif;
+				"
+			>
+				0%
+			</div>
+		</div>
+		<header class="container">
+			<h1>
+				TinkHack 2025
+				<span class="highlight-glow">| Innovate. Collaborate. Dominate. |</span>
+			</h1>
+			<p class="tagline">The Ultimate Code & Creativity Challenge!</p>
+			<div class="prizepool">
+				Over ₹1,00,000 in Prizes • Sponsor Goodies • Surprises Await!
+			</div>
+		</header>
+
+		<nav class="container">
+			<ul class="nav-links">
+				<li>
+					<a href="#overview" class="active" data-section="overview"
+						>Event Overview</a
+					>
+				</li>
+				<li><a href="#timeline" data-section="timeline">Timeline</a></li>
+				<li>
+					<a href="#registration" data-section="registration">Registration</a>
+				</li>
+				<li><a href="#sponsors" data-section="sponsors">Sponsors</a></li>
+				<li><a href="#contact" data-section="contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<section id="overview" class="container active">
+			<h2>Event Overview</h2>
+			<p>
+				<strong>TinkHack- The flagship hackathon event of Tinkerub MEC is here!<br>
+					Step into a 24-hour innovation marathon, where visionaries, designers,
+					and builders transform ideas into breakthrough realities<br />Power-packed
+					mentoring, creative twists, and next-gen launches — are you ready to
+					stake your claim?</strong
+				>
+			</p>
+		</section>
+
+		<section id="timeline" class="container" style="display: none">
+			<h2>Timeline</h2>
+			<ul class="timeline-list">
+				<li>
+					<strong> Registration Opens:</strong>
+					<span class="accent">September 30</span>
+				</li>
+				<li>
+					<strong> Team Up:</strong> <span class="accent">October 3</span>
+				</li>
+				<li>
+					<strong> Kickoff Begins:</strong>
+					<span class="accent">October 18</span>
+				</li>
+				<li>
+					<strong> Midnight Submissions:</strong>
+					<span class="accent">October 20</span>
+				</li>
+				<li>
+					<strong> Grand Finale:</strong>
+					<span class="accent">October 21</span>
+				</li>
+			</ul>
+			<p class="mini">Mark your calendars — don’t miss a beat!</p>
+		</section>
+
+		<section id="registration" class="container" style="display: none">
+			<h2>🎟 Ready to Take the Leap?</h2>
+			<p>
+				<strong>Build your dream team and jump into the hackathon buzz. No rules on creativity. Just pure, nonstop excitement!
+				<br> No cap on creativity. Infinite excitement.</strong>
+			</p>
+			<button class="btn" id="registerBtn" type="button">Register</button>
+		</section>
+
+		<section id="app-info" class="container" style="display: none">
+			<h2> Already Have the App?</h2>
+			<p>
+				Already have the app installed?
+				<a href="#" class="accent" onclick="alert('Redirecting to your app!');"
+					>Open the App</a
+				>
+				<br />
+				Or get it now on
+				<a
+					href="#"
+					class="accent"
+					onclick="alert('Redirecting to Google Play Store!');"
+					>Google Play Store</a
+				>
+			</p>
+			<p class="mini">Enjoy seamless hackathon experience on the go!</p>
+		</section>
+
+		<section id="sponsors" class="container" style="display: none">
+			<h2>Powered by Our Visionary Sponsors</h2>
+			<div class="sponsor-logos">
+				<img alt="NexaCore Solutions" />
+				<img alt="PulseWave Innovations" />
+			</div>
+			<p class="mini">
+				<br />
+				Want to see your brand here?
+				Contact us!
+			</p>
+		</section>
+
+		<section id="contact" class="container" style="display: none">
+			<h2>Get In Touch</h2>
+			<p>
+				We’re here for your queries, partnership requests, or just to say hi.<br />
+
+				<a href="mailto:tinkhub.mec@gmail.com" class="accent"
+					>tinkhub.mec@gmail.com</a
+				>
+				|
+				<a
+					href="https://www.instagram.com/tinkerhubmec/?e=52d23efd-2f35-4b7b-a206-8834a0b8be44&g=5"
+					class="accent"
+					target="_blank"
+					>Instagram</a
+				><br />
+				Let's build the future — together!
+			</p>
+		</section>
+
+		<footer class="container" style="display: none">
+			<p>
+				&copy; 2025 <span class="accent">TinkerHub MEC</span> • Dream. Disrupt.
+				Deliver.
+			</p>
+		</footer>
+
+		<div id="registerModal" class="modal-overlay" style="display: none">
+			<div class="modal-content">
+				<h3>Register for TinkHack</h3>
+				<p>How would you like to continue?</p>
+				<div class="modal-actions">
+					<a href="#" class="btn" id="openAppBtn">Open App</a>
+					<a href="#" class="btn" id="installAppBtn">Install App</a>
+				</div>
+				<button class="modal-close" id="closeModalBtn">&times;</button>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

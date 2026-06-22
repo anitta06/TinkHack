@@ -1,6 +1,7 @@
 # TinkHack
 Landing page for TinkHack , hackathon event by TinkerHub 
 # TinkHack 2025 Landing Page
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Website-blue?style=for-the-badge)](https://tinkhack-three.vercel.app/)
 
 Welcome to the official repository for **TinkHack 2025**, the flagship annual hackathon event organized by TinkerHub MEC. This project contains the source code for the event's landing page, designed to inform and engage participants and visitors.
 
